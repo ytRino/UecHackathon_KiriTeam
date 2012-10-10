@@ -394,7 +394,7 @@ public class DView extends View
     public static final int AXIS_Z = 1;
 
     public void shake(float diff, int axis) {
-        if(mLeftRectCurr == null || mRightRectCurr == null){
+        if (mLeftRectCurr == null || mRightRectCurr == null) {
             return;
         }
         float topLeft = 0;
